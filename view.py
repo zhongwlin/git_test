@@ -7,3 +7,6 @@ def index(request):
 
 def login(request):
     return redirect('/index')
+
+def register(request):
+    return redirect('/login')
